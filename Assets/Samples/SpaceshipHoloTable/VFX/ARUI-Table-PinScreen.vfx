@@ -439,8 +439,9 @@ MonoBehaviour:
 
       Then,
       blended to positions'
-    theme: Black
+    theme: 
     textSize: Medium
+    colorTheme: 2
   - title: Connect Rays to the Source
     position:
       serializedVersion: 2
@@ -455,8 +456,9 @@ MonoBehaviour:
       Pivot
       is set up to be located at the pin''s tip so the next block will be able to
       scale it'
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Setting the Rays Size (max)
     position:
       serializedVersion: 2
@@ -466,8 +468,9 @@ MonoBehaviour:
       height: 100
     contents: First, we set-up the Size/Scale for the rays. We only Store Scale.x
       as Scale.y will be set by the Connect Target Block
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Scale Rays by Pin Height + Cull
     position:
       serializedVersion: 2
@@ -484,8 +487,9 @@ MonoBehaviour:
 
       Also,
       culling applies to keep only one particle out of 16'
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Setup Color / Alpha
     position:
       serializedVersion: 2
@@ -499,8 +503,9 @@ MonoBehaviour:
 
       Alpha is Set up to be fixed
       but with Camera Fading so Rays closer to the camera gets faded and culled.'
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Spawn from Point Cache
     position:
       serializedVersion: 2
@@ -522,8 +527,9 @@ MonoBehaviour:
 
 
       Position is then backed up in targetPosition attribute'
-    theme: Black
+    theme: 
     textSize: Medium
+    colorTheme: 2
   - title: Wave Shape from Curve
     position:
       serializedVersion: 2
@@ -536,8 +542,9 @@ MonoBehaviour:
 
       Animation
       range is set in the periodic total time operator'
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: PinScreen
     position:
       serializedVersion: 2
@@ -546,15 +553,16 @@ MonoBehaviour:
       width: 419
       height: 100
     contents: 
-    theme: Black
+    theme: 
     textSize: Huge
+    colorTheme: 2
   categories: []
   uiBounds:
     serializedVersion: 2
     x: -902
-    y: -794
-    width: 4495
-    height: 3360
+    y: -921
+    width: 4494
+    height: 3482
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -817,7 +825,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 18
+  m_GraphVersion: 19
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -874,10 +882,6 @@ VisualEffectResource:
     m_RendererSettings:
       motionVectorGenerationMode: 1
       shadowCastingMode: 0
-      rayTracingMode: 0
-      receiveShadows: 0
-      reflectionProbeUsage: 0
-      lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
     m_PreWarmDeltaTime: 0.05
@@ -3861,6 +3865,7 @@ MonoBehaviour:
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661617234}
+  useBaseColorMap: 2
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -3886,7 +3891,6 @@ MonoBehaviour:
     m_PropertyNames: []
     m_PropertyValues: []
     renderQueue: -1
-  useBaseColorMap: 2
   useMaskMap: 0
   useNormalMap: 0
   useEmissiveMap: 0
@@ -4079,6 +4083,7 @@ MonoBehaviour:
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661617235}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -4104,7 +4109,6 @@ MonoBehaviour:
     m_PropertyNames: []
     m_PropertyValues: []
     renderQueue: -1
-  useBaseColorMap: 3
   useMaskMap: 0
   useNormalMap: 1
   useEmissiveMap: 0
@@ -6871,7 +6875,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: Period
@@ -8257,6 +8261,7 @@ MonoBehaviour:
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661617236}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
